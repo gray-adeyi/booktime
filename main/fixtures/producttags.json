@@ -1,0 +1,11 @@
+[
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "Opensouce",
+    "slug": "opensouce",
+    "description": "",
+    "active": true
+  }
+}
+]
