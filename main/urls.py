@@ -4,9 +4,31 @@ from django.views.generic import TemplateView
 from django.contrib.auth import views as auth_views
 from main import views
 from main import models
-from main import  forms
+from main import forms
 
 urlpatterns = [
+    path(
+        "address/",
+        views.AddressListView.as_view(template_name='address_list.html'),
+        name="address_list",
+    ),
+    path(
+        "address/create/",
+        views.AddressCreateView.as_view(template_name="address_form.html"),
+        name="address_create",
+    ),
+    path(
+        "address/<int:pk>/",
+        views.AddressUpdateView.as_view(template_name="address_update.html"),
+        name="address_update",
+    ),
+    path(
+        "address/<int:pk>/delete/",
+        views.AddressDeleteView.as_view(
+            template_name="address_confirm_delete.html"),
+        name="address_delete",
+    ),
+
     path(
         "login/",
         auth_views.LoginView.as_view(
