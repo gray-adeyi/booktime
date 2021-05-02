@@ -1,0 +1,4 @@
+name,description,tags,image_filename,price
+The Rust Programming Language,A beginner's guide to rust programming,opensource,trpl.png,35.00
+The Markdown Guide,A beginner's guide to writing awesome markdowns,opensource,tmg.jpg,12.98
+Python Data Analytics,The definitive guide to data science with python,opensource,pda.png,29.99
