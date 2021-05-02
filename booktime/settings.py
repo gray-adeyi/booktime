@@ -170,3 +170,6 @@ else:
     EMAIL_PORT = os.environ['EMAIL_PORT']
     EMAIL_USE_TLS = True
     EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
+
+# Using custom user model in place of django default user model
+AUTH_USER_MODEL = "main.User"
