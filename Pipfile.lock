@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "67cf75874310c046033020e149353e6fef2d140f89a3624d78ebaa3579bb432e"
+            "sha256": "a969e339549d7fdd68553ea401f2794cc0be5fbf25a8fd72a979da546ba6d622"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,14 @@
             ],
             "index": "pypi",
             "version": "==3.2"
+        },
+        "django-webpack-loader": {
+            "hashes": [
+                "sha256:7a3c88201aa54481f9399465615cbe7b9aece8081496a6d0287b7cb8e232f447",
+                "sha256:d28a276ed3d89e97a313b74967e373693f8b86afe629f4c91eea91c5b4f2ec20"
+            ],
+            "index": "pypi",
+            "version": "==0.7.0"
         },
         "pillow": {
             "hashes": [
@@ -125,6 +133,14 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.7.0"
         },
+        "selenium": {
+            "hashes": [
+                "sha256:2d7131d7bc5a5b99a2d9b04aaf2612c411b03b8ca1b1ee8d3de5845a9be2cb3c",
+                "sha256:deaf32b60ad91a4611b98d8002757f29e6f2c2d5fcaf202e1c9ad06d6772300d"
+            ],
+            "index": "pypi",
+            "version": "==3.141.0"
+        },
         "toml": {
             "hashes": [
                 "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b",
@@ -132,6 +148,14 @@
             ],
             "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.10.2"
+        },
+        "urllib3": {
+            "hashes": [
+                "sha256:2f4da4594db7e1e110a944bb1b551fdf4e6c136ad42e4234131391e21eb5b0df",
+                "sha256:e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
+            "version": "==1.26.4"
         }
     }
 }

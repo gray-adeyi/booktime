@@ -3,3 +3,5 @@ db.sqlite3
 *.pyc
 envars.zsh
 media
+node_modules
+geckodriver.log

@@ -7,9 +7,11 @@ name = "pypi"
 django = "*"
 psycopg2 = "*"
 pillow = "*"
+django-webpack-loader = "*"
 
 [dev-packages]
 autopep8 = "*"
+selenium = "*"
 
 [requires]
 python_version = "3.9"
